@@ -21,6 +21,8 @@ import javax.swing.JMenu;
 import javax.swing.SwingConstants;
 import javax.swing.JButton;
 import java.awt.Font;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class GuiTugas2 extends JFrame {
 
@@ -29,7 +31,7 @@ public class GuiTugas2 extends JFrame {
 	/**
 	 * Launch the application.
 	 */
-	public static void main(String[] args) {
+	public void createLayar() {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
@@ -50,9 +52,9 @@ public class GuiTugas2 extends JFrame {
 		setIconImage(Toolkit.getDefaultToolkit().getImage(GuiTugas2.class.getResource("/res/10.png")));
 		setTitle("FunCoding Tugas 2 - Loop");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(100, 100, 586, 356);
+		setBounds(100, 100, 586, 500);
 		contentPane = new JPanel();
-		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
+		//contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
 		contentPane.setLayout(new BorderLayout(0, 0));
 		
@@ -92,6 +94,12 @@ public class GuiTugas2 extends JFrame {
 			char button = (char) i;
 			alphabet[i-'A'] = new JButton(""+button);
 			alphabet[i-'A'].setFont(new Font("Consolas", Font.PLAIN, 14));
+			alphabet[i-'A'].addActionListener(new ActionListener(){
+				public void actionPerformed(ActionEvent e)
+	            {
+	                System.out.println("You clicked the"+" button");
+	            }
+			});
 			panel.add(alphabet[i-'A']);
 		}
 		JButton tes = new JButton("tes");
