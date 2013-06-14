@@ -1,9 +1,30 @@
 package funcoding;
-import gui.GuiTugas2;
 
-public class tugas2loop {
-   public static void main (String [] args){
-	   GuiTugas2 layar = new GuiTugas2();
-	   layar.createLayar();
+
+public class Tugas2Loop {
+   public Tugas2Loop() {
+	   
    }
+   
+   public String getTombol() {
+	   return null;
+   }
+   
+   public boolean isSelesai(){
+	   return false;
+   }
+   
+   public void resetGame() {
+	   
+   }
+   
+   public void startNewGame() {
+	   
+   }
+   
+   public void endGame(){
+	   
+   }
+   
+   
 }
