@@ -49,7 +49,7 @@ public class GuiTugas2 extends JFrame {
 	 */
 	public GuiTugas2() {
 		setResizable(false);
-		setIconImage(Toolkit.getDefaultToolkit().getImage(GuiTugas2.class.getResource("/res/10.png")));
+		setIconImage(Toolkit.getDefaultToolkit().getImage(GuiTugas2.class.getResource("/res/11.png")));
 		setTitle("FunCoding Tugas 2 - Loop");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 586, 500);
@@ -77,7 +77,7 @@ public class GuiTugas2 extends JFrame {
 		contentPane.add(layeredPane);
 		layeredPane.setLayout(null);
 		
-		JLabel hangman = new JLabel("");
+		final JLabel hangman = new JLabel("");
 		hangman.setVerticalAlignment(SwingConstants.TOP);
 		hangman.setIcon(new ImageIcon(GuiTugas2.class.getResource("/res/10.png")));
 		hangman.setBounds(10, 11, 270, 281);
@@ -87,7 +87,7 @@ public class GuiTugas2 extends JFrame {
 		FlowLayout flowLayout = (FlowLayout) panel.getLayout();
 		flowLayout.setAlignment(FlowLayout.LEADING);
 		final JLabel labelHuruf = new JLabel();
-		labelHuruf.setBounds(100, 100, 200, 200);
+		labelHuruf.setBounds(100, 100,1000,1000);
 		panel.setBounds(289, 11, 271, 279);
 		layeredPane.add(panel);
 		
@@ -103,7 +103,10 @@ public class GuiTugas2 extends JFrame {
 				public void actionPerformed(ActionEvent e)
 	            {
 	                System.out.println("You clicked the "+ (char) huruf +" button");
-	                labelHuruf.setText(labelHuruf.getText() + (char) huruf);
+	                labelHuruf.setFont(new Font("Consolas",Font.PLAIN, 30));
+	                labelHuruf.setText(labelHuruf.getText() + (char) huruf+" ");
+	                String isian = "/res/"+((huruf%10)+1)+".png";
+	                hangman.setIcon(new ImageIcon(GuiTugas2.class.getResource(isian)));
 	            }
 			});
 			panel.add(alphabet[i-'A']);
