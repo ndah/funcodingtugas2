@@ -19,11 +19,11 @@ Belgium
 Bermuda
 Bhutan
 Bolivia
-Bosnia Herzegovina
+BosniaHerzegovina
 Botswana
 Brazil
 Belize
-Brunei Darussalam
+BruneiDarussalam
 Bulgaria
 Myanmar
 Burundi
@@ -31,8 +31,8 @@ Belarus
 Cambodia
 Cameroon
 Canada
-Cape Verde
-Sri Lanka
+CapeVerde
+SriLanka
 Chad
 Chile
 China
@@ -40,7 +40,7 @@ Taiwan
 Colombia
 Comoros
 Congo
-Costa Rica
+CostaRica
 Croatia
 Cuba
 Cyprus
@@ -51,7 +51,7 @@ Denmark
 Dominica
 Dominica
 Ecuador
-El Salvador
+ElSalvador
 Guinea
 Ethiopia
 Eritrea
@@ -79,7 +79,7 @@ Guyana
 Haiti
 Vatican
 Honduras
-Hong Kong
+HongKong
 Hungary
 Iceland
 India
@@ -132,7 +132,7 @@ Netherlands
 Aruba
 Bonaire
 Vanuatu
-New Zealand
+NewZealand
 Nicaragua
 Niger
 Nigeria
@@ -142,29 +142,29 @@ Micronesia
 Palau
 Pakistan
 Panama
-Papua New Guinea
+PapuaNewGuinea
 Paraguay
 Peru
 Philippines
 Poland
 Portugal
-Guinea-Bissau
-Timor-Leste
+GuineaBissau
+TimorLeste
 Qatar
 Romania
 Russia
 Rwanda
-Saudi Arabia
+SaudiArabia
 Senegal
 Serbia
 Seychelles
-Sierra Leone
+SierraLeone
 Singapore
 Slovakia
 Vietnam
 Slovenia
 Somalia
-South Africa
+SouthAfrica
 Zimbabwe
 Spain
 Sudan
@@ -186,11 +186,11 @@ Uganda
 Ukraine
 Macedonia
 Egypt
-United Kingdom
+UnitedKingdom
 Guernsey
 Tanzania
 America
-Burkina Faso
+BurkinaFaso
 Uruguay
 Uzbekistan
 Venezuela
